@@ -1,0 +1,5 @@
+###PYTHON
+- __name__, __doc__,etc
+- inbuilt modules - math,
+ - fucntions - args type, return type (fastAPI, pydantic)
+ - threading

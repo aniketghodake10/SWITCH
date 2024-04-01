@@ -1,0 +1,25 @@
+with - for auto enter and closure of block......calls __enter__ at block start and __exit__ after blocks ends
+
+print - sep, end, flush=True for clearing buffer time sleep in for loop
+
+espace sequence charaters - use backslash \ before characters like ",',etc
+
+map - apply function to each item
+filter - filter items from list based on condition mentioned in function (lamda)
+reduce - apply function to two items from list (one by one) reducing to final one value
+
+x=9
+match x**2:
+    case 0:
+        print(x+1)
+    case 9 if x%3==0:
+        print(x+2)
+    case _ if x%2==0:
+        print(x+3)
+    case _:
+        print(x+4)
+		
+
+time, datetime === date.strftime(format), strptime(string, format)
+
+finally - it will be executed although a non-mentioned exception is cought and we did not handle it in except

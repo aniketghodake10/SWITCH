@@ -1,0 +1,48 @@
+********* COMMON ********
+immutable - string, tuple
+mutable - list, dict, set
+
+to check if object contains a element - if value in object......object can be list, tuple, string, set, dict(keys)
+
+
+
+
+********* STRING ********
+- str - uses ASCII value made unicode to compare the strings......0,1,2,A,B,C,a,b,c.......ord("A") - gives ascii value, chr(90) - gives respective charatcter of that asci value
+
+a='grerg'....a[start:end:step].....default step is 1......reverse -- a[::-1]
+
+functions - isupper, islower, isdigit, isaplha, isalnum, isspace, startswith, endswith, upper, lower, str.count(substr), str.index()
+split() - splits string with default - whitespace - becomes list
+partition(substr) - 3 items in a tuple - becomes tuple
+strip, lstrip, rstrip - str.strip(substr)
+replace(,) - replaces all
+join - joins list items with str making it one string "THIS".join(['a', 'b', 'c']) ==== aTHISbTHISc
+
+for remove - use str.replace(substr, '')
+
+
+
+
+********* LIST ********
+print(a[-1:-5:-2]).....based on step is +ve or -ve, it will convert start and end to +ve and -ve, and then perform action
+methods - append, insert, pop - removed element at index, remove - removes element 1st occurence, count, reverse, sort, sorted, del
+
+
+
+
+********* TUPLE ********
+methods - index, sorted, count, sum
+when use tuple  - *args, iterator (memory efficient on-the-fly, lazy evaluation)
+
+
+
+
+********* SET ********
+methods - update, intersection, union, symmetric_difference, add, discard
+
+
+
+
+********* DICT ********
+methods - update, get, pop, del, keys, values, items, dict(zip(list, list))
